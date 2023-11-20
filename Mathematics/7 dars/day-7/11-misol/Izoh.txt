@@ -1,0 +1,1 @@
+n sonigacha bolgan toq sonlarni topish uchun bizga bitta for sikli yetarli bo'ladi, n gacha bo'lgan har bir sonni i  o'zgaruvchisiga yuklab, if shart oferatoridan foydalangan holda i ni 2 ga foiz(%) li bo'lamiz, qoldiq 0 dan farqli  yani 1 bo'lsa shu sonni ekranga chiqaramiz, aks holda u sonni tashlab keyingi siklga o'tib ketamiz.

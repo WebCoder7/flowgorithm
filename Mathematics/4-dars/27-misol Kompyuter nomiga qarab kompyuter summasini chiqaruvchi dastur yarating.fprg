@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:15:47 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAyOjQ3OjA2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzA1OjE1OjQ3IEFNOzk7MzM5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="String" array="False" size=""/>
+            <output expression="&quot;Iltimos kompyuter nomini kiriting???&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a==&quot;lenovo&quot;">
+                <then>
+                    <output expression="&quot;narxi 650$&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a=&quot;macbook&quot;">
+                        <then>
+                            <output expression="&quot;narxi 1200$&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a=&quot;acer&quot;">
+                                <then>
+                                    <output expression="&quot;narxi 620$&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="a=&quot;hp&quot;">
+                                        <then>
+                                            <output expression="&quot;950$&quot;" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

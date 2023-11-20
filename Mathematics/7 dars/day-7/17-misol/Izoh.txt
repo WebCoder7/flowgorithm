@@ -1,0 +1,1 @@
+17 misolga n gacha bo'lgan barcha sonlarni ko'paytmasini hisoblab chiqamiz, buning uchun albatta for siklidan foydalanamiz va natijani hisoblab borish uchun S o'zgaruvchisini elon qilamiz va unga dastlabki qiymat sifatida 1 ni beramiz, chunki bizga sonlarning ko'paytmasi kerak yeg'indisi emas, sikl tugagach natijani ekranga chiqaramiz.

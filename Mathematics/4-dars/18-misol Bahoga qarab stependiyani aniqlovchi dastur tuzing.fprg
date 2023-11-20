@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 04:10:16 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjE1OjQ2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzA0OjEwOjE2IEFNOzc7MzM4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a&gt;=75">
+                <then>
+                    <output expression="a&amp; &quot;- sizning balingiz.Siz aniq stipendiya olasz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a&gt;=62">
+                        <then>
+                            <output expression="a&amp;&quot; - siz stipendiya olasiz lekin kamroq olasiz &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="a&amp; &quot; - sizning balingiz.Hayot shunaqa ekan. Siqilmasdan o'qing turing bo'ng  &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

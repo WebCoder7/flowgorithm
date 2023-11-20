@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 04:58:27 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjE1OjQ2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzA0OjU4OjI3IEFNOzEwOzM0Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;0&amp;&amp;b&gt;0&amp;&amp;c&gt;0">
+                <then>
+                    <output expression="&quot;barcha raqamlar musbat&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;barcha raqamlar manfiyt&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

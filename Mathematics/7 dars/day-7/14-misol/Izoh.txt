@@ -1,0 +1,1 @@
+bu misolda for sikli ichida har bir sonni if shart operatori orqali juf yoki toqlikka tekshirdim (% foizli bo'lish orqali) va har birini 2-darsajaga oshirib ekranga chiqardim

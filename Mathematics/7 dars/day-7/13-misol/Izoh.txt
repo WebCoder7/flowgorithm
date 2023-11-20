@@ -1,0 +1,6 @@
+Men uchun mazkur misol for mavzusida berilgan eng qiziqarli misol bo'ldi, chunki unda ikta for siklidan foydalaniladi, misolda sonlarni murakkablikka (agar son kamida 3 ta bo'luvchiga ega bo'lsa yani 1 ga, o'ziga va yana bitta songa bo'linsa - murakkab son deyiladi) tekshirish kerak edi. Men buning uchun avval i, j, n, S nomli o'zgaruvchilarni e'lon qilib oldim, bu yerda:
+	i - birinchi sikl uchun o'zgaruvchi
+	j - ikknchi yani ichki sikl uchun o'zgaruvchi
+	n - tashqarida input orqali qabul qilib olinuvchi qiymat
+	S - bo'luvchilar sonini hisoblab boruvchi o'zgaruvchi (uning dastlabki qiymati 0 bo'ladi)
+birinchi siklni 4 sonidan boshladim, sababi murakkab sonlar 4 dan boshlanadi (1, 2, 4 ga bo'linadi), ichki siklda esa ishni osonlashtirish uchun 1 va i (aynan tanlangan son)ni chiqarib yubordim va hisoblashni 2 va i-1 oralig'ida ko'rib chiqdim, agar i soni j ga qoldiqsiz bo'linsa S birga ortadi, ichki sikl tugagandan keyin if sahrt operatori S ni noldan farqli ekanini tekshiradi, natija true bo'lsa mazkur son ekranga chiqadi, aks holda jarayon keyingi siklga o'tib davom etadi, S ni esa keyingi sonning bo'luvchilarini topish uchun yana 0 ga tenglab qo'yamiz. Bir oz murakkab lekin to'g'ri javob chiqaruvchi yechim shu bo'ldi, mening yechimimda.

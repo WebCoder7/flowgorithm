@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 10:36:47 PM"/>
+        <attribute name="created" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzA5OjM4OjI3IFBNOzIzMjY="/>
+        <attribute name="edited" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzEwOjM2OjQ3IFBNOzQ7MjQyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="16-misol. n son berilgan 0 va ngacha sonlar orasida 5 ga karralisini tashlab o'tib ketuvchi dastur tuzing"/>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <if expression="i % 5 == 0">
+                    <then/>
+                    <else>
+                        <output expression="i" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

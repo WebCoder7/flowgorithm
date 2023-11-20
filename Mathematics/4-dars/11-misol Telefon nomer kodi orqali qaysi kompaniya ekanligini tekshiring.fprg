@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 03:08:06 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAyOjQ3OjA2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjA4OjA2IEFNOzc7MzM4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kompaniya kodini kiriting !! Masalan:99895&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a==99899||a==99895">
+                <then>
+                    <output expression="&quot;uzmobile&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a=99891||a=99890">
+                        <then>
+                            <output expression="&quot;beeline&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a=99893">
+                                <then>
+                                    <output expression="&quot;usell&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;qayday kompaniya ekanligini aniqlay olmadim&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 03:15:33 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAyOjQ3OjA2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjE1OjMzIEFNOzg7MzM4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Iltimos 1 dan 7 gacha son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a==1">
+                <then>
+                    <output expression="&quot;dushanba&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a=2">
+                        <then>
+                            <output expression="&quot;seshanba&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a=3">
+                                <then>
+                                    <output expression="&quot;chorshanba&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="a=4">
+                                        <then>
+                                            <output expression="&quot;payshanba&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="a=5">
+                                                <then>
+                                                    <output expression="&quot;Juma&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="a=6">
+                                                        <then>
+                                                            <output expression="&quot;shanba&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="a=7">
+                                                                <then>
+                                                                    <output expression="&quot;yakshanba&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;Ming bor uzur Iltimos 1 dan 7 gacha bolgan son kiriting&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

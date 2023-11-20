@@ -1,0 +1,1 @@
+mazkur misolda ham n sonini inputdan qabul qilib olamiz va i o'zgaruvchisiga uning har bir qiymatini yuklaymiz, if shart operatorida esa i ni % 5 ga yani son 5 ning karralisimi yoki yoq tekshiramiz, natija true qiymat qaytarganda mazkur sonni tashab keyingi siklga o'tib ketamiz, aksincha bo'lganda esa uni ekranga chiqaramiz

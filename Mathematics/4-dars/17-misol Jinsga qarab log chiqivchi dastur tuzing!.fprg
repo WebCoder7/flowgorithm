@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 03:52:24 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjE1OjQ2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjUyOjI0IEFNOzY7MzM4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="String" array="False" size=""/>
+            <output expression="&quot;iltimos jinsingizni kiriting? Masalan:erkak yoki ayol&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a==&quot;erkak&quot;">
+                <then>
+                    <output expression="&quot;siz erkak kishisiz sizga pastdagi loglar kerak boladi &quot;" newline="True"/>
+                    <output expression="&quot;iltimos 1 daqiqa kutip turing :) &quot;" newline="True"/>
+                    <output expression="&quot;xazillashdim hich marsa chiqmedi :)&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a=&quot;ayol&quot;">
+                        <then>
+                            <output expression="&quot;siz ayol kishisiz sizga shu pasdagi log lar kerak&quot;" newline="True"/>
+                            <output expression="&quot;iltimos 1 daqiqa kutip turing :) &quot;" newline="True"/>
+                            <output expression="&quot;xazillashdim hich marsa chiqmedi :)&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Siz notori buyruq kiritdingiz Iltimos qaytadan uruning koring :( &quot;" newline="True"/>
+                            <output expression="&quot;yorfam uchun F5 ni bossangiz ilova yangiladi :)&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

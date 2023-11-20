@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-23 11:32:21 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVRDUUFFODM7MjAyMy0xMC0yMzsiMTA6MTc6MDggIjsyNjU2"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVRDUUFFODM7MjAyMy0xMC0yMzsiMTE6MzI6MjEgIjs5MTsyODE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="reverse" type="String" array="False" size=""/>
+            <assign variable="reverse" expression="&quot;&quot;"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <input variable="name"/>
+            <for variable="i" start="len(name) -1" end="0" direction="dec" step="1">
+                <assign variable="reverse" expression="reverse &amp; char(name,i)"/>
+            </for>
+            <output expression="reverse" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

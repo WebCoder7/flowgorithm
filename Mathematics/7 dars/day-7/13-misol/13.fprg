@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 10:22:07 PM"/>
+        <attribute name="created" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzA5OjM4OjI3IFBNOzIzMjY="/>
+        <attribute name="edited" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzEwOjIyOjA3IFBNOzI7MjQxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="13-misol. n soni berilgan shu son ichidan faqat murakkab sonlarni aniqlovchi dastur yozing"/>
+            <declare name="i, j, n, S" type="Integer" array="False" size=""/>
+            <assign variable="S" expression="0"/>
+            <input variable="n"/>
+            <for variable="i" start="4" end="n" direction="inc" step="1">
+                <for variable="j" start="2" end="i-1" direction="inc" step="1">
+                    <if expression="i % j == 0">
+                        <then>
+                            <assign variable="S" expression="S + 1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+                <if expression="S != 0">
+                    <then>
+                        <output expression="i &amp; &quot; murakkab son&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="S" expression="0"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 04:55:06 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjE1OjQ2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzA0OjU1OjA2IEFNOzk7MzM5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a%2!=0">
+                <then>
+                    <output expression="a&amp; &quot; toq son&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="a&amp;&quot; juft son&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="b%2==0">
+                <then>
+                    <output expression="b&amp;&quot; juft son&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="b&amp; &quot; toq son&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Uzur manfiy qiymat qabul qilmayapti&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

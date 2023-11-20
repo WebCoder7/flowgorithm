@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Turgunboy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 04:35:00 AM"/>
+        <attribute name="created" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzAzOjE1OjQ2IEFNOzMyNzY="/>
+        <attribute name="edited" value="VHVyZ3VuYm95O0RFU0tUT1AtQVE1TUgzNjsyMDIzLTEwLTA5OzA0OjM1OjAwIEFNOzk7MzM4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Iltimos yiligizni kiriting?&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a&lt;2023">
+                <then>
+                    <assign variable="b" expression="2023-a"/>
+                    <output expression="&quot;Sizning yoshingiz - &quot; &amp; b" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Oyin qivormelik shuniyam e,Hazil :)&quot;" newline="True"/>
+                    <output expression="&quot;baribir bekorchisiz gazini bosing :)&quot;" newline="True"/>
+                    <output expression="&quot;F5  ni bossangiz yangilanadi hohlagganizcha oynab otirishingiz mumkin :)&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

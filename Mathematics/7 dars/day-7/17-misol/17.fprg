@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 10:35:38 PM"/>
+        <attribute name="created" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzA5OjM4OjI3IFBNOzIzMjY="/>
+        <attribute name="edited" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzEwOjM1OjM4IFBNOzM7MjQyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="17-misol. n butun son berilgan n gacha butun sonlarni ko'paytmasini topuvchi dastur tuzing"/>
+            <declare name="i, n, S" type="Integer" array="False" size=""/>
+            <assign variable="S" expression="1"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="S" expression="S * i"/>
+            </for>
+            <output expression="S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

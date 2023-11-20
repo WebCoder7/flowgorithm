@@ -1,0 +1,1 @@
+bu misol ham 11 misolning deyarli o'zi bo'lib faqat if shart operatoriga biz i % 2 == 0 ga shartini yozamiz va true qiymat qaytganda mazkur sonni ekranga chiqaramiz.

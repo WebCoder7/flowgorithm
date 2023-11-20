@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 10:16:02 PM"/>
+        <attribute name="created" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzA5OjM4OjI3IFBNOzIzMjY="/>
+        <attribute name="edited" value="YXN1cztERVNJR05FUjsyMDIzLTEwLTE3OzEwOjE2OjAyIFBNOzE7MjQxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="11-misol. n soni berilgan shu soni ichidan toqlarin ko'ruvchi dastur yozing"/>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <if expression="i % 2 != 0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
